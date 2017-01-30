@@ -30,6 +30,7 @@ typedef enum KVInterval : NSInteger {
 @property (nonatomic, strong, readonly) KVStyle *pinStyle;
 @property (nonatomic, strong, readonly) KVStyle *circleStyle;
 @property (nonatomic, strong, readonly) KVStyle *lineStyle;
+@property (nonatomic) NSInteger currentTime;
 
 @property (nonatomic) BOOL showTimerLabel; //default NO;
 @property (nonatomic) BOOL showKofLabel; //default NO;

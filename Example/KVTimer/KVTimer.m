@@ -15,7 +15,6 @@
 @property (strong, nonatomic) CAShapeLayer *baseCircle;
 
 @property (nonatomic) float currentAngle;
-@property (nonatomic) NSInteger currentTime;
 @property (nonatomic) NSInteger startTime;
 
 @property (nonatomic) NSUInteger TimeMin;
